@@ -4,7 +4,7 @@ import WordCard from './WordCard'
 
 const word = "Hello";
 function App() {
- return (
+return (
   <div>
     <WordCard value="Hello"/>
   </div>
