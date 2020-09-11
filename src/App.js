@@ -1,15 +1,16 @@
-import CharacterCard from './CharacterCard';
 import React from 'react';
-import WordCard from './WordCard'
-
+import WordCard from './WordCard';
+import './App.css';
 const word = "Hello";
 function App() {
-return (
-  <div>
-    <WordCard value="Hello"/>
-  </div>
+ return (
+ <div>
+     {
+        <div>
+       <WordCard value="hello"/>
+        </div>
+     }
+ </div>
  );
 }
-
 export default App;
-
