@@ -33,10 +33,15 @@
   user-select: none;
  }
  .activeCard {
-  color: red;
-  background: pink;
+  color: rgb(235, 209, 94);
+  background: rgb(0, 46, 23);
  }
-
+ body{
+  background-image: url(avocado.jpg);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+ }
  
 @keyframes App-logo-spin {
   from {
